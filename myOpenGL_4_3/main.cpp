@@ -97,6 +97,13 @@ int main() {
 		glfwSwapBuffers(window);
 	}
 
+	// clear the program
+	glUseProgram(0);
+	glDeleteProgram(ray_program);
+	glDeleteProgram(quad_program);
+	glDeleteTextures(1, &tex_output);
+	glDeleteVertexArrays(1, &quad_vao);
+
 	stop_gl(); // stop glfw, close window
 	return 0;
 }
