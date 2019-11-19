@@ -70,8 +70,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\yiyun\source\repos\myOpenGL_4_3\myOpenGL_4_3\lib\glew-2.1.0\include;C:\Users\yiyun\source\repos\myOpenGL_4_3\myOpenGL_4_3\lib\glfw-3.3.bin.WIN32\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\yiyun\source\repos\myOpenGL_4_3\myOpenGL_4_3\lib\glew-2.1.0\lib;C:\Users\yiyun\source\repos\myOpenGL_4_3\myOpenGL_4_3\lib\glfw-3.3.bin.WIN32\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\include;$(ProjectDir)\include\glew-2.1.0\include;$(ProjectDir)\include\glfw-3.3.bin.WIN32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)\include;$(ProjectDir)\include\glm;$(ProjectDir)\include\glew-2.1.0;$(ProjectDir)\include\glfw-3.3.bin.WIN32;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

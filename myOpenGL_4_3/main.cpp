@@ -5,7 +5,7 @@
 
 #include "gl_utils.h"
 #include <iostream>
-#include "lib/glm/glm.hpp"
+#include <glm\glm.hpp>
 using namespace std;
 using namespace glm;
 
