@@ -1,5 +1,5 @@
-# Purdue_CS535_final_project
-Real time cloud rendering in OpenGL compute shader
+# Yiyun's real-time cloud rendering project
+Real-time cloud rendering in OpenGL 4.3 compute shader
 
 Currently this project is just a basic ray-caster. Cast ray from the camera in compute shader and intersect with a box.
 
