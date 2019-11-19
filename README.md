@@ -12,3 +12,5 @@ https://github.com/capnramses/antons_opengl_tutorials_book/tree/master/40_comput
 
 I also learn from David Kuri for ray tracing, check his beautiful tutorial here:
 http://blog.three-eyed-games.com/2018/05/03/gpu-ray-tracing-in-unity-part-1/
+
+Special thanks to Zheming Gu for helping me build the project.
